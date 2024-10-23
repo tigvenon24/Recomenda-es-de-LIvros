@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendações de Livros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Recomendações de Livros</h1>
+        <input type="text" id="search" placeholder="Busque por um livro...">
+        <button onclick="searchBooks()">Buscar</button>
+    </header>
+    <main>
+        <section id="book-list">
+            <h2>Livros Recomendados</h2>
+            <div id="books"></div>
+        </section>
+        <section id="add-book">
+            <h2>Adicionar um Livro</h2>
+            <input type="text" id="title" placeholder="Título do Livro">
+            <input type="text" id="author" placeholder="Autor do Livro">
+            <input type="text" id="genre" placeholder="Gênero do Livro">
+            <input type="text" id="description" placeholder="Descrição do Livro">
+            <input type="text" id="image" placeholder="URL da Imagem">
+            <button onclick="addBook()">Adicionar Livro</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Recomendações de Livros</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
